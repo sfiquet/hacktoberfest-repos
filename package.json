@@ -1,0 +1,21 @@
+{
+  "name": "hacktoberfest-repos",
+  "version": "1.0.0",
+  "description": "Repo finder for Hacktoberfest",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "author": "Sylvie Fiquet",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^6.5.0",
+    "jest": "^24.9.0"
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "parse-link-header": "^1.0.1"
+  }
+}
